@@ -1,0 +1,40 @@
+server:
+  port: 8084
+wechat:
+  #  微信公众平台的appID
+  appId: 'wx8cd1b92efda33bbc'
+  #  微信公众平台的appSecret
+  secret: 'cefbbcf99e159d74edbb40b05aca9dc6'
+  #  百度地图开放平台的城市ID
+  district_id: '310115'
+  #  百度地图开放平台的应用AK
+  ak: 'Nw6Bv2keDMtdGDeO0nnu1eteAXk3r3Oz'
+  #  纪念日：注意格式yyyy-MM-dd
+  loveDate: '2023-03-17'
+  #  生日：注意格式yyyy-MM-dd （无论是计算阳历生日还是农历生日,一律填阳历出生年月日）
+  birthday: '1998-01-19'
+  #  模板ID
+  templateId: '6b_7Z3xDvr0mgkIvO6EhyJ1-sk_G-2qfKCzQa70tAoE'
+  #  天行数据apiKey
+     # key: 你在彩虹屁网站申请的情话key
+  Key: '7e43cd1ed66975bb5cdb28cb421027b1'
+  #  关注公众号的用户ID（要推送的人的用户ID,在微信公众平台里可以查看到,现在支持推送多个人）
+  userId:
+    - 'oRgAr6zKr0oF2npty84MaYFgledo'
+   # - ''
+  #    是否按农历计算生日 true:是 false:否
+  useLunar: true
+  #  cron表达式
+  cron: 0 */1 * * * ?
+
+  yan:
+    district_id:        #行政代码
+    ak:       #百度AK
+    day:            #纪念日    格式 yyyy-MM-dd
+    birthday:      #生日
+    appId:
+    secret:
+    #o5m1U6hTRpoOk4g-CNiCCRBecSe0                     o5m1U6ugnxv_oqeKNpHYMZpp9hCs
+    user:           #发给的用户
+    templateId: 6b_7Z3xDvr0mgkIvO6EhyJ1-sk_G-2qfKCzQa70tAoE       #消息模板
+    key: 7e43cd1ed66975bb5cdb28cb421027b1              #彩虹屁   key
